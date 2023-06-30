@@ -83,3 +83,9 @@ li {
     font-weight: bold;
     margin-left: 800px;
 }
+
+/* fourth section */
+
+.fourth-section {
+    display: flex;
+}
