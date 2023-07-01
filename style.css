@@ -39,6 +39,14 @@ li {
     width: 600px;
 }
 
+button {
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+}
+
 /* second section */
 
 .second-section {
@@ -86,6 +94,16 @@ li {
 
 /* fourth section */
 
-.fourth-section {
+.color {
     display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 0px;
+    color: white;
+}
+
+.fourth-section {
+    margin: 50px 500px;
 }
