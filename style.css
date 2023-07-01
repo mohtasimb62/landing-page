@@ -1,9 +1,7 @@
 /* first section */
 
 .first-section {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    padding: 25px 200px;
     background-color: #1F2937;
     color: white;
 }
@@ -25,8 +23,9 @@ ul {
     gap: 20px;
 }
 
-li {
+a {
     color: white;
+    text-decoration: none;
 }
 
 .header-content {
@@ -50,6 +49,7 @@ button {
     color: white;
     background-color: #3882F6;
     border: 2px solid white;
+    margin: 15px 0;
 }
 
 /* second section */
