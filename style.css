@@ -39,6 +39,11 @@ li {
     width: 600px;
 }
 
+.text {
+    max-width: 380px;
+    gap: 50px;
+}
+
 button {
     padding: 5px 30px;
     border-radius: 10px;
