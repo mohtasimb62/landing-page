@@ -49,24 +49,33 @@ button {
 
 /* second section */
 
-.second-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-bottom: 100px;
-    
+.second-section-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 32px;
 }
 
-.images img {
-    height: 150px;
-    width: 150px;
+.second-section {
+    text-align: center;
+    margin: 32px;
 }
 
 .images {
-    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.text {
+    max-width: 150px;
+}
+
+.images img {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
 }
 
 /* third section */
@@ -106,4 +115,18 @@ button {
 
 .fourth-section {
     margin: 50px 500px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-content {
+    color: white;
+    padding: 50px;
 }
